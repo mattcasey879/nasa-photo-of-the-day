@@ -1,5 +1,7 @@
 # Module Project: Component Side Effects- NASA APOD
 
+API key = cvicckb2zf4QgnYkFf0SkSDeEJdIs6M8URg70k9K
+
 This will be a two-module project. In it you will consume the NASA API to fetch the "Astronomy Photo Of The Day" or APOD. Once you fetch the data, you will build a few components that will render different pieces of data in your interface. After the second module (in the [DAY_TWO_README.md](DAY_TWO_README.md) file) you will re-style your app using [Styled Components](https://github.com/LambdaSchool/nasa-photo-of-the-day.git).
 
 ## Instructions

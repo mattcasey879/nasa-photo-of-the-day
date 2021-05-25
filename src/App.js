@@ -1,13 +1,21 @@
 import React from "react";
-import "./App.css";
+import "./Css/App.css";
+import axios from 'axios';
+import Info from './Components/Info';
+import Header from './Components/Header';
+import SearchBar from './Components/SearchBar';
+
+ axios.get('https://api.nasa.gov/planetary/apod?api_key=cvicckb2zf4QgnYkFf0SkSDeEJdIs6M8URg70k9K')
+  .then((res) => {
+    console.log(res.data)
+  })
 
 function App() {
+
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      <Header />
+      <SearchBar />
     </div>
   );
 }
